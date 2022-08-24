@@ -1,0 +1,54 @@
+.Body_Container{
+
+}
+
+.Body_Container-cardboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.Body_Cardboard-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+
+    border: 2px solid red;
+}
+
+.Body_Cardboard-card img{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.Body_Cardboard-card p{
+    display:none;
+
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.Body_Cardboard-card h3{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.Body_Cardboard-card:hover img{
+    top:-50px;
+}
+
+.Body_Cardboard-card:hover h3{
+    top:-50px;
+}
+
+.Body_Cardboard-card:hover p{
+    display: block;
+}

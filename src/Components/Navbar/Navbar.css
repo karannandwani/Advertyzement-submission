@@ -1,0 +1,21 @@
+.Navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 100px; */
+    height: 10vh;
+    padding: 0px 2%;
+    background: red;
+}
+
+.Navbar_Container-left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background: blue; */
+}
+
+.Navbar_Container-left img{
+    height: 90%;
+
+}
